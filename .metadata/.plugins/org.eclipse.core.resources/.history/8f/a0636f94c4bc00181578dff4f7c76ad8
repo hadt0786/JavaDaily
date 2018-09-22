@@ -1,0 +1,20 @@
+package date.Sep20;
+
+public class InitializeBeforUse {
+
+	public static void main(String[] args) {
+
+		Carcar c = new Carcar();
+		
+		
+	}
+
+}
+
+class Carcar {
+	public void carSpeed() {
+		long speed= 1L;
+		System.out.println(speed);
+	}
+}
+

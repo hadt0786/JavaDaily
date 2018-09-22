@@ -1,0 +1,13 @@
+package date.Sep20;
+
+public class InitializeBeforUse {
+
+	public static void main(String[] args) {
+
+		Car c = new Car();
+		
+		
+	}
+
+}
+

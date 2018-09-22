@@ -1,0 +1,22 @@
+package date19Sep;
+
+public class Car {
+
+	int modelno;
+	String color;
+	
+	public void displayinfo(int mno, String color) {
+		modelno = mno;
+		color = color;
+		System.out.println(modelno+" "+color);
+	}
+	
+	public static void main(String[] args) {
+
+		Car c = new Car();
+		
+		c.displayinfo(101, "Black");
+		
+	}
+	
+}
